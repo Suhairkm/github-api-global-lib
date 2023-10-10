@@ -1,11 +1,11 @@
-def call(saywhat) {
-    if (saywhat == "hi") {
+def call() {
+    if ("hi") {
         script {
             sh """
                 echo Hi Alice
             """
         }
-    } else if (saywhat == "hello") {
+    } else if ("hello") {
         script {
             sh """
                 echo Hello Alice
