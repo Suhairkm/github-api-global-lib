@@ -6,5 +6,5 @@ def call(Map config = [:]) {
 
 def call(place[]) {
 
-    sh "from ${place[])
+    sh "from ${place[]}
 }
