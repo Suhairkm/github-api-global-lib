@@ -4,7 +4,7 @@ def call(Map config = [:]) {
 
 }
 
-def call(list place = []) {
+def call(place[i]) {
 
-    sh "from ${place[]}"
+    sh "from ${place[i]}"
 }
